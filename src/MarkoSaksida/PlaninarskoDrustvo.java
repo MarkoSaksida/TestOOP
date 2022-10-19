@@ -117,22 +117,22 @@ public class PlaninarskoDrustvo {
 
         PlaninarskoDrustvo drustvo = new PlaninarskoDrustvo(planinari);
 
-//        System.out.println(planinari);
-//        drustvo.izbaciPlaninara(2);
-//        System.out.println(planinari);
-//
-//        System.out.println(drustvo.najuspesnijiPlaninar());
-//
-//        System.out.println(drustvo.prosecnaClanarinaPlaninara());
-//
-//        System.out.println(drustvo.popniSeNaPlaninu(planina1));
+        System.out.println(planinari);
+        drustvo.izbaciPlaninara(2);
+        System.out.println(planinari);
 
-        //System.out.println(planinari);
+        System.out.println(drustvo.najuspesnijiPlaninar());
+
+        System.out.println(drustvo.prosecnaClanarinaPlaninara());
+
+        System.out.println(drustvo.popniSeNaPlaninu(planina1));
+
+        System.out.println(planinari);
         for (int i = 0; i < planinari.size(); i++) {
             System.out.println(planinari.get(i).clanarina());
         }
         drustvo.sortPlaninariPoClanarini();
-        //System.out.println(planinari);
+        System.out.println(planinari);
         for (int i = 0; i < planinari.size(); i++) {
             System.out.println(planinari.get(i).clanarina());
         }
